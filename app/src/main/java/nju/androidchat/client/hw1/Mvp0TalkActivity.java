@@ -72,7 +72,7 @@ public class Mvp0TalkActivity extends AppCompatActivity implements Mvp0Contract.
                             if(str.equals("")){
                             content.addView(new ItemTextSend(this, text, message.getMessageId(), this));
                         } else {
-                            content.addView(new ItemTextReceive(this, text, message.getMessageId()));
+                            content.addView(new ItemImageReceive(this, str, message.getMessageId()));
                         }
                     }
                     }
